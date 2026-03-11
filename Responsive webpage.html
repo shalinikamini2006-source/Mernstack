@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Responsive webpage</titlle>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            .header {
+                background-image: url('https://via.placeholder.com/1200x400');
+                background-size: cover;
+                background-position: center;
+                height: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 2em;
+            }
+            @media (max-width: 600px) {
+                .header {
+                    height: 200px;
+                    font-size: 1.5em;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            Welcome to My Responsive Webpage
+        </div>
+    </body>
+</html>

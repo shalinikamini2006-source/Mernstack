@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>responsive image header,navigation,<footer></footer></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .header {
+                background-image: url('https://via.placeholder.com/1200x400');
+                background-size: cover;
+                background-position: center;
+                height: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: rgb(47, 85, 141);
+                font-size: 2em;
+            }
+            @media (max-width: 600px) {
+                .header {
+                    height: 200px;
+                    font-size: 1.5em;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <h1>My Responsive Header</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <p>&copy; 2024 My Website</p>
+        </footer>
+    </body>
+</html>
